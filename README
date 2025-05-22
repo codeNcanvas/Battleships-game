@@ -1,0 +1,39 @@
+# ⚓ Battleship (Java)
+
+**Battleship** is a command-line version of the classic strategy game where the player attempts to sink hidden enemy ships. Implemented in Java using Object-Oriented Programming principles, this project is great for beginners learning logic, arrays, classes, and simple user input handling.
+
+---
+
+## 🎮 How to Play
+
+1. The game hides 3 "startups" (ships) on a 7×7 grid.
+2. You guess locations like `a1`, `b3`, etc.
+3. The game responds with:
+   - `miss` – no ship at that spot.
+   - `hit` – you've hit a ship!
+   - `kill` – you've sunk an entire ship.
+4. Your goal is to sink all startups in as few guesses as possible.
+
+---
+
+## 🧱 Features
+
+- ✅ 7x7 grid system
+- ✅ Randomized ship placement (horizontal & vertical)
+- ✅ Real-time user input via console
+- ✅ Feedback system (`miss`, `hit`, `kill`)
+- ✅ Clean OOP architecture (classes: `GameHelper`, `Startup`, `DotComBust`)
+
+---
+
+## 🛠️ Technologies Used
+
+- Java (JDK 8+)
+- Command-line Interface (CLI)
+- Scanner (for input)
+- Random class
+
+---
+
+## 📂 Project Structure
+
